@@ -1,0 +1,15 @@
+{
+  "name": "slack-topic-countdown-lambda",
+  "version": "1.0.0",
+  "description": "Lambda function to update a Slack channel topic counting down to a date",
+  "main": "index.js",
+  "scripts": {
+    "package": "zip -r package.zip *"
+  },
+  "author": "Ben Speakman",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/client": "^4.4.0",
+    "moment": "^2.22.2"
+  }
+}
